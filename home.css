@@ -1,0 +1,204 @@
+/* ---------------------- */
+
+/* Basic set up */
+
+/* ----------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 700px;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+
+html, body {
+    color: white;
+    font-size: 20px;
+}
+
+.header {
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------------ */
+
+/* General use */
+
+/* ----------------- */
+
+.btn {
+    background-color: rgb(50, 173, 255);
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    /* margin: 10px 20px; */
+    display: inline-block;
+}
+
+/* --------------- */
+
+/*  Left Header */
+
+/* --------------- */
+
+.left-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(Image/Esdeath.png);
+    float: left;
+}
+
+/* --------------------- */
+
+/* Dropdown Anime  */
+
+/* --------------------- */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    margin-top: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.699);
+    text-align: center;
+    border-radius: 5px;
+    z-index: 9;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li {
+    list-style-type: none;
+}
+
+.dropdown btn {
+    margin-bottom: 50px;
+}
+
+/* ------------ */
+
+/* hover Section*/
+
+/* ------------ */
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: dropdown-content 0.9s;
+}
+
+.dropdown:hover .btn {
+    background-color: rgb(4, 134, 255);
+    transition: background-color 0.3s;
+}
+
+.dropdown-content img {
+    width: 50%;
+}
+
+/* ----------- */
+
+/* Life section */
+
+/* ----------- */
+
+.life {
+    float: right;
+    /* border: solid red 5px; */
+    width: 40vw;
+    height: 90vh;
+    position: relative;
+}
+
+.life img {
+    width: 25vw;
+    border-radius: 7px;
+    margin: 5%;
+    float: right;
+}
+
+.life a {
+    color: white;
+}
+
+/* ---------- */
+
+/* Anime + Manga img section */
+
+/* ------------ */
+
+.manga, .anime {
+    position: absolute;
+    text-align: center;
+}
+
+.anime {
+    right: 0%;
+    bottom: 30%;
+    margin-bottom: 25px;
+}
+
+.manga {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+
+
+
+/* ------------ */
+
+/* Right Header  */
+
+/* -------------- */
+
+.right-header {
+    float: right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)), url(Image/Screenshot\ \(771\).png);
+}
+
+/* clearfix */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+    color: yellowgreen;
+}
+
+.right-header img {
+    width: 40%;
+}
+
+.btn-margin {
+    margin: 20px 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img {
+    margin-left: 28%;
+    margin-top: 1px;
+    position: relative;
+}
