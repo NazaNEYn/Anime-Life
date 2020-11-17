@@ -1,5 +1,5 @@
 # Anime-Life
 
-you can check it out here : 
+You can check out my little anime project here : 
 
 https://nazaneyn.github.io/Anime-Life/home.html
