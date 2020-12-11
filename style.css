@@ -26,9 +26,15 @@ html, body {
 /* font */
 
 @font-face {
-    font-family: lato;
+    font-family: "demilovato";
+    src: url(index/Fonts/Demi-Lovato-Font.ttf);
+}
+
+@font-face {
+    font-family: "lato";
     src: url(Lato-Regular.ttf);
 }
+
 
 /* ------------------ */
 
