@@ -31,7 +31,7 @@ html, body {
 }
 
 @font-face {
-    font-family: "lato";
+    font-family: lato;
     src: url(Lato-Regular.ttf);
 }
 
