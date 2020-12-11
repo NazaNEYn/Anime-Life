@@ -26,7 +26,7 @@ html, body {
 /* font */
 
 @font-face {
-    font-family: "demilovato";
+    font-family: demilovato;
     src: url(index/Fonts/Demi-Lovato-Font.ttf);
 }
 
